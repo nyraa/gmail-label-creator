@@ -8,7 +8,7 @@
 2. 建立Email篩選器，將寄件者是學校公告用的no-reply@mail.ncku.edu.tw自動標上「公告」標籤，並套用到現有所有郵件
 3. 在此`main.gs`檔案第一個字串中指定公告標籤名稱
 4. 在左側「觸發條件」中新增觸發`process_email`的定時條件，建議數小時至一天觸發一次即可
-5. 在編輯器中`main.gs`檔案手動執行一次`process_email`函數來把現存的郵件歸類並自動新增篩選器
+5. 在編輯器中`main.gs`檔案手動執行一次`process_email`函數來把現存的郵件歸類並自動新增篩選器，同時授予權限
 
 ## 截圖
 ![](https://github.com/nyraa/gmail-label-creator/blob/master/screenshot_1.png?raw=true)
