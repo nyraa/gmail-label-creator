@@ -1,6 +1,6 @@
 # 簡述
 專為成功大學的Google Suite Email服務建立標籤的Script（適當小修改後可以通用到其他地方）  
-學校寄來的公告email全部雜亂在一起看起來很中風，所以寫了個Google App Script來依寄件者（單位處室）自動新增Gmail的Label跟Filter以歸類學校公告信件。  
+學校寄來的公告email全部雜亂在一起看起來很中風，此Google App Script可以依寄件者（單位處室）自動新增Gmail的Label跟Filter以歸類學校公告信件。  
 此Script運作的前提在於可以先用過濾器一次過濾出全部公告並標上公告標籤以辨識需要自動分類的郵件，例如此情況是公告統一由no-reply@mail.ncku.edu.tw寄出
 
 ## 使用說明
